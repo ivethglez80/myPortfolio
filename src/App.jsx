@@ -1,6 +1,6 @@
 import { LangProvider } from './context/langContext'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
+import NavBar from './components/navBar'
 import Home from './views/home/home'
 import About from './views/about/about'
 import Profile from './views/profile/profile'
