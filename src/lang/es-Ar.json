@@ -1,0 +1,55 @@
+{
+    "nav.home": "Inicio",
+    "nav.about": "Acerca de",
+    "nav.profile": "Perfil",
+    "nav.portfolio": "Portfolio",
+    "nav.blog": "Blog",
+    "nav.contact": "contacto",
+
+    "home.hello": "Hola",
+    "home.name":"Soy Iveth",
+    "home.fs": "DESARROLLADOR FULL STACK",
+    "home.PS": "DESARROLLADOR PERN STACK",
+
+    "about.title": "ACERCA DE MÍ",
+    "about.p1": "Impulsada por una pasión inquebrantable por la programacion y la tecnología, prospero al crear experiencias digitales fluidas y resolver problemas complejos como Full Stack Developer. Con una sólida base en tecnologías tanto de front-end como de back-end, me especializo en crear aplicaciones web robustas que rompen barreras y ofrecen experiencias de usuario excepcionales.",
+    "about.p2": "En mi viaje como Full Stack Developer, he abrazado desafíos, fomentando la innovación y la eficiencia a través de mi código. Creo en el poder de la tecnología para transformar ideas en realidad y busco constantemente oportunidades para expandir mis habilidades y conocimientos en el siempre cambiante panorama tecnológico.",
+    "about.p3": "Cuando no estoy inmersa en líneas de código, soy una aventurera de corazón, explorando el mundo de los lenguajes y marcos de codificación con la misma entusiasmo que me lleva a descubrir nuevos lugares. Ya sea optimizando algoritmos o descubriendo gemas ocultas durante mis viajes, abordo cada esfuerzo con curiosidad y determinación.",
+   
+    "profile.edu":"EDUCACION",
+    "profile.edu1": "Licenciatura en Ciencias de la Computación",
+    "profile.edu2": "Desarrollador Web Full Stack",
+    "profile.edu3": "Diseño web Responsive / JavaScript / Bibliotecas de front-end",
+    "profile.sk": "CONOCIMIENTOS",
+    "profile.skGoals": "ME INTERESA",
+    "profile.langs":"IDIOMAS",
+    "profile.Hb": "HOBBIES",
+    "profile.Hb1": "Programar proyectos personales",
+    "profile.Hb2": "Leer libros de aventuras fantasticas",
+    "profile.Hb3": "Largas caminatas para pensar y charlar",
+    "profile.Hb4": "Mi favorito: Pasar tiempo con familiares y amigos",
+   
+    "portfolio.title1": "Bufete de Abogados",
+    "portfolio.desc1": "Página landing responsive ReactJs / TailwindCss nodemailer",
+    "portfolio.title2": "Servicios de Chef Privado",
+    "portfolio.desc2": "Página landing responsive ReactJs / TailwindCss nodemailer iNext18",
+    "portfolio.title3": "Bonita",
+    "portfolio.desc3": "Aplicación de comercio electrónico PERN CRUD",
+    "portfolio.title4": "PokeApi",
+    "portfolio.desc4": "SPA que consume API, funciones de renderizado y creación JS/React/NodeJs/Express",
+    "portfolio.titleCurrent": "Actualmente trabajando en",
+    "portfolio.descCurrent": "Aplicación multilingüe SPA CRUD PERN para gestionar pedidos de clientes con diferentes perfiles",
+    
+    "contact.title": "CONTACTAME",
+    "contact.subtitle1": "Contrátame",
+    "contact.subtitle2": "Trabajemos juntos",
+   
+   
+   
+    "blog.titleMain":"Titulo foco",
+    "blog.pMain": "este texto seria el intro de una sola linea",
+    "blog.title1": "Primer título",
+    "blog.p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "blog.title2": "aaabbbccc",
+    "blog.p2": "dddeeefff"
+}
