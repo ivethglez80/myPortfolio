@@ -9,7 +9,7 @@ import locationIcon from "./../../img/ubicationicon.png"
 
 const ContactInfo = () => {
     return (
-        <div className="animate-fadeIn h-full md:grid md:grid-rows-3">
+        <div className="animate-fadeIn h-full md:grid md:grid-rows-3 md:h-full">
 
             <div className="row-span-1 pt-5 pb-10 md:pb-0 md:pt-24">{/*title ans subtitle */}
                 <h1 className="font-title text-3xl md:text-5xl font-bold text-slate-300 ">
