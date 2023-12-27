@@ -54,7 +54,7 @@ const Home = () => {
 
             {/* <img src={prflPic} alt="developer picture" className="h-screen" /> */}
             <div className="md:absolute md:top-0 md:left-0 md:w-full md:h-screen md:z-[-1] hidden md:block">
-                <img src={prflPic} alt="avatar" className="md:w-full md:h-full md:object-cover" />
+                <img src={prflPic} alt="avatar" className="md:w-3/4 md:h-3/4 md:object-cover" />
             </div>
 
             <div className="">
