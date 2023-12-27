@@ -56,11 +56,8 @@ body {
 
 .location::before {
   color: white;
-  content: "Buenos Aires, Arg.";
-  
-  
-  
-  animation: animate 8s steps(1, end) infinite;
+  content: "Buenos Aires, Arg.";  
+  animation: animate 5s steps(1, end) infinite;
 }
 
 

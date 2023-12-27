@@ -6,8 +6,29 @@ import linkedinIcon from "./../../img/linkedinIcon.png"
 import gitIcon from "./../../img/githubIcon.png"
 import twittericon from "./../../img/twittericon.png"
 import locationIcon from "./../../img/ubicationicon.png"
+import Typed from "typed.js"
+import { useEffect, useRef } from "react"
 
 const ContactInfo = () => {
+
+    useEffect(()=>{
+        const msgs  =  {
+            strings:["HIRE ME", "CONTRATAME", "LET'S WORK TOGUETHER", "TRABAJEMOS JUNTOS" ],
+            startDelay: 200,
+            typeSpeed: 100,
+            backDelay: 100,
+            backSpeed: 100,
+            showCursor: false,
+            loop: true,
+        }
+        const typed = new Typed ('#elem', msgs);
+
+        return () => {
+            typed.destroy();
+    };
+ }, []);
+
+
     return (
         <div className="animate-fadeIn h-full md:grid md:grid-rows-3">
 
@@ -16,15 +37,8 @@ const ContactInfo = () => {
                     <FormattedMessage id="contact.title" defaultMessage="CONTACTAME" />
                 </h1>
 
-                <div className="text-sky-300 font-subtitle pl-1">
-                    {/* <ReactTyped
-                        strings={["HIRE ME", "CONTRATAME", "LET'S WORK TOGUETHER", "TRABAJEMOS JUNTOS"]}
-                        typeSpeed={105}
-                        loop
-                        backSpeed={30}
-                        cursorChar="!"
-                        showCursor={true}
-                    /> */}
+                <div className="text-sky-300 font-subtitle pl-1">                   
+                    <span id="elem"></span> |
                 </div>
             </div>
 
@@ -64,8 +78,8 @@ const ContactInfo = () => {
             </div>
 
             <div className="row-span-1 md:pt-16">{/*footer name*/}
-                <div className="border-t border-slate-300 mt-2 mb-5 md:mb-3 mx-10 border"></div>
-                <p className="text-4xl md:text-6xl font-bold font-title text-gray-500 text-opacity-50 pt-0 md:pt-6">
+                <div className="border-b border-slate-300 md:mb-3 mx-10 mt-10 mb-10"></div>
+                <p className="text-4xl mb-20 md:text-6xl font-bold font-title text-gray-500 text-opacity-50 pt-0 md:pt-16">
                     IVETH GONZALEZ
                 </p>
 

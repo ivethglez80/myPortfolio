@@ -27,7 +27,7 @@ const Card = ({ urlLink, cardImg, title, desc, defaultT, defaultD }) => {
 
 const Portfolio = () => {
     return (
-        <div className="animate-fadeIn text-slate-300 md:grid md:grid-row-3">
+        <div className="animate-fadeIn text-slate-300 md:grid md:grid-row-3 mb-10 md:mb-0">
 
             <div className="row-span-1 flex flex-col items-start pt-10 ml-3 md:ml-10">
             <h1 className="font-title text-2xl md:text-4xl font-bold">

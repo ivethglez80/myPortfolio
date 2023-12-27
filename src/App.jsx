@@ -9,8 +9,8 @@ import ContactInfo from './views/contactInfo/contactInfo'
 import Blog from './views/blog/blog'
 import NotFound from './views/notFound/notFound'
 import Footer from './components/footer'
-
 import './App.css'
+
 
 function App() {
 
