@@ -32,7 +32,7 @@ const Home = () => {
     
    return (
 
-        <div className="md:grid md:grid-cols-2 md:grid-rows-3 animate-fadeIn">
+        <div className="md:grid md:grid-cols-2 md:grid-rows-3 md:h-screen animate-fadeIn">
 
             <div className="flex md:pl-16 row-start-2 pt-5 md:pt-0 pl-4 ">
                 <div className="text-start">
