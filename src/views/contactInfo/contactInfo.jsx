@@ -79,7 +79,7 @@ const ContactInfo = () => {
 
             <div className="row-span-1 md:pt-0">{/*footer name*/}
                 <div className="border-b border-slate-300 md:mb-3 mx-10 mt-10 pb-10"></div>
-                <p className="text-4xl mb-12 md:text-6xl font-bold font-title text-gray-500 text-opacity-50 pt-0 md:pt-2 md:pb-10">
+                <p className="text-4xl mb-12 md:text-6xl font-bold font-title text-gray-500 text-opacity-50 md:pb-2">
                     IVETH GONZALEZ
                 </p>
 
