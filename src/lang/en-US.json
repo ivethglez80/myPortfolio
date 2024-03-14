@@ -43,6 +43,8 @@
     "portfolio.desc4":"Single page App consuming API, render and create functions JS/React/NodeJs/express",
     "portfolio.title5": "Wedding invitation with a twist",
     "portfolio.desc5": "SPA using the PERN stack, CRUD functionalities via HTTP, and authentication/authorization for admin with Auth0",
+    "portfolio.title6":"Digital invitations Front Store",
+    "portfolio.desc6":"SPA using PERN stack, CRUD functions for HTTP requests and admin authentication/authorization to manage dashboard",
     "portfolio.titleCurrent":"Currently working on",
     "portfolio.descCurrent":"Multilingual App SPA CRUD PERN to manage customer orders with different profiles",
 

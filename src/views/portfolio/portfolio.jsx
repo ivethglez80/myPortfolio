@@ -81,6 +81,14 @@ const Portfolio = () => {
                     />
 
                     <Card
+                        urlLink={"https://dia-especial-front.vercel.app/"}
+                        cardImg={"https://i.ibb.co/QX2xpCf/foto-para-my-portfolio.png"}
+                        title="portfolio.title6" desc="portfolio.desc6"
+                        defaultT="Digital invitations Front Store"
+                        defaultD="SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin. Catalogo y dashboard"
+                    />
+
+                    <Card
                         urlLink={"https://github.com/ivethglez80/CustomerOrdersManagement.git"}
                         cardImg={wkngOn}
                         title="portfolio.titleCurrent" desc="portfolio.descCurrent"

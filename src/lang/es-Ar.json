@@ -39,6 +39,8 @@
     "portfolio.desc4": "SPA que consume API, funciones de renderizado y creación JS/React/NodeJs/Express",
     "portfolio.title5": "Invitacion de boda con un twist",
     "portfolio.desc5": "SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin con auth0",
+    "portfolio.title6":"Catalogo de invitaciones digitales",
+    "portfolio.desc6":"SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin. Catalogo y dashboard",
     "portfolio.titleCurrent": "Actualmente trabajando en",
     "portfolio.descCurrent": "Aplicación multilingüe SPA CRUD PERN para gestionar pedidos de clientes con diferentes perfiles",
     
