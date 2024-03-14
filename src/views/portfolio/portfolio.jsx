@@ -5,7 +5,8 @@ import chef from "./../../img/chefLanding.png";
 import bonitaImg from "./../../img/bonita.png";
 import poke from "./../../img/pokeApi.png";
 import wkngOn from "./../../img/workingOn.png";
-import invitation from "./../../img/invitation.png"
+import invitation from "./../../img/invitation.png";
+import DE from "./../../img/diaespecial.png";
 
 
 const Card = ({ urlLink, cardImg, title, desc, defaultT, defaultD }) => {
@@ -82,7 +83,7 @@ const Portfolio = () => {
 
                     <Card
                         urlLink={"https://dia-especial-front.vercel.app/"}
-                        cardImg={"https://i.ibb.co/QX2xpCf/foto-para-my-portfolio.png"}
+                        cardImg={DE}
                         title="portfolio.title6" desc="portfolio.desc6"
                         defaultT="Digital invitations Front Store"
                         defaultD="SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin. Catalogo y dashboard"
