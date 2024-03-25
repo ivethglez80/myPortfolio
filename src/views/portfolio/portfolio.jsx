@@ -7,6 +7,7 @@ import poke from "./../../img/pokeApi.png";
 import wkngOn from "./../../img/workingOn.png";
 import invitation from "./../../img/invitation.png";
 import DE from "./../../img/diaespecial.png";
+import web4 from "./../../img/web4.jpg";
 
 
 const Card = ({ urlLink, cardImg, title, desc, defaultT, defaultD }) => {
@@ -87,6 +88,14 @@ const Portfolio = () => {
                         title="portfolio.title6" desc="portfolio.desc6"
                         defaultT="Digital invitations Front Store"
                         defaultD="SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin. Catalogo y dashboard"
+                    />
+
+                    <Card
+                        urlLink={"https://youtu.be/2yJir5O6b90"}
+                        cardImg={web4}
+                        title="portfolio.title7" desc="portfolio.desc7"
+                        defaultT="Invitacion + dashboard"
+                        defaultD="Landing estilada y animada con funcionalidades que se administran por dashbooard con login"
                     />
 
                     <Card
