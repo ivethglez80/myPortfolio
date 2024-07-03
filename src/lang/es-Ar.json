@@ -31,21 +31,36 @@
    
     "portfolio.title1": "Bufete de Abogados",
     "portfolio.desc1": "Página landing responsive ReactJs / TailwindCss nodemailer",
+    "portfolio.tecs1":"",
+    
     "portfolio.title2": "Servicios de Chef Privado",
     "portfolio.desc2": "Website showcase para servicios de chef privado, dirigido a publico de diferentes nacionalidades, por lo tanto es bilingue ingles/español con funcionalidades dirigidas a demostrar el producto y servicio con elegancia y suaves llamados a la accion",
+    "portfolio.tecs2":"",
+    
     "portfolio.title3": "Bonita",
     "portfolio.desc3": "Tienda online completa para vender productos y articulos de belleza al por mayor, cuenta con catalogo con sus filtros y busquedas, carrito de compras, favoritos, estado local para manejar selcciones sin login,                        dashboard para admin, superadmin y compradores, cada uno con sus propias funcionalidades.                         Pasarela de pagos por mercado pago y manejo de inventario completo por producto, colores, marcas, tamaños, presentaciones.                        Ademas de poder accionar descuentos por temporada, codigo o producto. sistema de reseñas y recordatorio de carrito pendiente",
+    "portfolio.tecs3":"",
+   
     "portfolio.title4": "PokeApi",
     "portfolio.desc4": "SPA que consume API, funciones de renderizado y creación JS/React/NodeJs/Express",
+    "portfolio.tecs4":"",
+    
     "portfolio.title5": "Invitacion de boda con un twist",
     "portfolio.desc5": "SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin con auth0",
+    "portfolio.tecs5":"",
+    
     "portfolio.title6":"Catalogo de invitaciones digitales",
     "portfolio.desc6":"Website completo para la venta de invitaciones de eventos electronicas, la tienda cuenta con catalogo y sistema de pedidos personales con formulario de requerimentos. Se concentra el dashboard para admin para modificar catalogo, cuenta tambien con sistema de notificaciones de pedidos",
+    "portfolio.tecs6":"",
+    
     "portfolio.title7":"Invitacion + dashboard",
-    "portfolio.desc7":"Landing estilada y animada con funcionalidades que se administran por dashbooard con login.",
+    "portfolio.desc7":"He generado una gran cantidad de invitaciones digitales personalizadas con funcionalidades como gps, cuenta atras, recordatorios al mail, confirmacion de asistencia por formulario, el invitado puede seleccionar el regalo que dara por medio de catalogo. El dashboard para administrar regalos y a los invitados confirmados, la lista de regalos que se puede modificar y ver los que han sido ya seleccionados. Cada invitacion con diseño totalmente diferente ha reforzado mis capacidades de estilizado en front",
+    "portfolio.tecs7":"",
+    
     "portfolio.titleCurrent": "Actualmente trabajando en",
     "portfolio.descCurrent": "Aplicación multilingüe SPA CRUD PERN para gestionar pedidos de clientes con diferentes perfiles",
-    
+    "portfolio.tecsCurrent":"",
+
     "contact.title": "CONTACTAME",
     "contact.subtitle1": "Contrátame",
     "contact.subtitle2": "Trabajemos juntos",

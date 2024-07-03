@@ -25,22 +25,39 @@
     "profile.Hb2": "Read books about fantastic adventures",
     "profile.Hb3": "Long walks to think and talk",
     "profile.Hb4": "my fav: Spend time with family and friends",
+    
     "portfolio.title1": "Lawyer Buffet",
     "portfolio.desc1": "Responsive landing page ReactJs /  TailwindCss nodemailer",
+    "portfolio,tecs1":"",
+    
     "portfolio.title2": "Private chef Services",
     "portfolio.desc2": "Website showcase for private chef services, targeting an international audience, hence bilingual in English/Spanish with features aimed at elegantly showcasing the product and service, along with subtle calls to action.",
+    "portfolio,tecs2":"",
+    
     "portfolio.title3": "Bonita",
     "portfolio.desc3": "Complete online store for wholesale beauty products and items, featuring a catalog with filters and search, shopping cart, favorites, local state for guest users, dashboards for admin, superadmin, and buyers with specific functionalities. Includes Mercado Pago payment gateway, comprehensive inventory management by product attributes, seasonal, code-based, or product-specific discounts, review system, and abandoned cart reminders.",
+    "portfolio,tecs3":"",
+    
     "portfolio.title4": "PokeApi",
     "portfolio.desc4": "Single page App consuming API, render and create functions JS/React/NodeJs/express",
+    "portfolio,tecs4":"",
+    
     "portfolio.title5": "Wedding invitation with a twist",
     "portfolio.desc5": "SPA using the PERN stack, CRUD functionalities via HTTP, and authentication/authorization for admin with Auth0",
+    "portfolio,tecs5":"",
+    
     "portfolio.title6": "Digital invitations Front Store",
     "portfolio.desc6": "Website complete for selling electronic event invitations, the store features a catalog and a personalized ordering system with a requirements form. The admin dashboard is focused on modifying the catalog, and it also includes an order notification system.",
+    "portfolio,tecs6":"",
+    
     "portfolio.title7": "Invitation + dashboard",
-    "portfolio.desc7": "Styled and animated landing page with features managed via a login-enabled dashboard.",
+    "portfolio.desc7": "I have generated a large number of personalized digital invitations with features such as GPS, countdowns, email reminders, RSVP confirmation via form, and guests can select their gift through a catalog. The dashboard manages gifts and confirmed guests, allowing modification of the gift list and viewing selections. Each invitation with a completely different design has reinforced my front-end styling skills.",
+    "portfolio,tecs7":"",
+    
     "portfolio.titleCurrent": "Currently working on",
     "portfolio.descCurrent": "Multilingual App SPA CRUD PERN to manage customer orders with different profiles",
+    "portfolio,tecsCurrent":"",
+    
     "contact.title": "GET IN TOUCH",
     "contact.subtitle1": "Hire me",
     "contact.subtitle2": "Let's work together",
