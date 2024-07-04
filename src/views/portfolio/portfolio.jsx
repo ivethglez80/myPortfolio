@@ -23,10 +23,10 @@ const Card = ({ urlLink, cardImg, title, desc, defaultT, defaultD, tecs, default
                         <FormattedMessage id={desc} defaultMessage={defaultD} />
                     </p>
                 </div> */}
-                <div className=" w-screen h-[820px] md:h-[320px] mb-12 flex justify-center">
-                    <div className="w-[90%] md:w-[70%] border-4 border-sky-300 shadow-md rounded-3xl p-2 hover:bg-gray-800 hover:shadow-blue-500 hover:-translate-x-4
+                <div className=" w-screen h-[820px] md:h-[520px] lg:h-[420px] xl:h-[360px] mb-12 flex justify-center">
+                    <div className="w-[90%] border-4 border-sky-300 shadow-md rounded-3xl p-2 hover:bg-gray-800 hover:shadow-blue-500 hover:-translate-x-4
                                     md:flex md:flex-row">
-                        <div className="w-full md:w-1/2 h-[300px]">
+                        <div className="w-full md:w-1/2 h-[300px] md:h-[500px] lg:h-[400px] xl:h-[340px]">
                             <img src={cardImg} alt="" className="h-full w-full object-cover rounded-3xl" />
                         </div>
                         <div className="w-full md:w-1/2 md:flex md:justify-center md:flex-col">
