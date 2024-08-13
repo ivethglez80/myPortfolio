@@ -61,6 +61,10 @@
     "portfolio.descCurrent": "Aplicación multilingüe SPA CRUD PERN para gestionar pedidos de clientes con diferentes perfiles",
     "portfolio.tecsCurrent":"",
 
+    "portfolio.titleHenat": "Landing page para constructora Henat",
+    "portfolio.descHenat": "Si bien es una landing la considero importante para olocar en mi portfolio ya que con ela celebro la velocidad con la que puedo desarrollar en tecnologias que me son familiares. Para esta landing demore desarrollando tres dias, estoy contenta por eso",
+    "portfolio.tecsHenat": "Vite, React, Tailwind",
+
     "contact.title": "CONTACTAME",
     "contact.subtitle1": "Contrátame",
     "contact.subtitle2": "Trabajemos juntos",

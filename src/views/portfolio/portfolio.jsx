@@ -124,9 +124,15 @@ const Portfolio = () => {
                         defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
                     />
 
-
-                  
-
+                    <Card
+                        urlLink={"https://grupohenat.com.ar/"}
+                        cardImg="https://res.cloudinary.com/dl0jhqre0/image/upload/v1723578878/portfolio/control_panel_gjdkwz.png"
+                        title="portfolio.titleHenat" desc="portfolio.descHenat"
+                        defaultT="Landing para Henat"
+                        defaultD="Si bien es una landing la considero importante para olocar en mi portfolio ya que con ela celebro la velocidad con la que puedo desarrollar en tecnologias que me son familiares. Para esta landing demore desarrollando tres dias, estoy contenta por eso"
+                        tecs="Vite, React, Tailwind"
+                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
+                    />
 
                     <Card
                         urlLink={"https://github.com/ivethglez80/CustomerOrdersManagement.git"}
@@ -137,6 +143,10 @@ const Portfolio = () => {
                         tecs="portfolio.tecsCurrent"
                         defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
                     />
+
+
+
+
                 </div>
             </div>
 

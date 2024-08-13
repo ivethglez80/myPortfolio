@@ -53,6 +53,10 @@
     "portfolio.title7": "Invitation + dashboard",
     "portfolio.desc7": "I have generated a large number of personalized digital invitations with features such as GPS, countdowns, email reminders, RSVP confirmation via form, and guests can select their gift through a catalog. The dashboard manages gifts and confirmed guests, allowing modification of the gift list and viewing selections. Each invitation with a completely different design has reinforced my front-end styling skills.",
     "portfolio,tecs7":"",
+
+    "portfolio.titleHenat": "Landing page for Henat Constructors",
+    "portfolio.descHenat": "Although it is a landing page, I consider it important to include it in my portfolio because it showcases the speed at which I can develop using technologies that are familiar to me. I took three days to develop this landing page, and I'm happy with that.",
+    "portfolio.tecsHenat": "Vite, React, Tailwind",
     
     "portfolio.titleCurrent": "Currently working on",
     "portfolio.descCurrent": "Multilingual App SPA CRUD PERN to manage customer orders with different profiles",
