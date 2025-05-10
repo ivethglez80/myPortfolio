@@ -12,9 +12,9 @@
     "home.PS": "DESARROLLADOR PERN STACK",
 
     "about.title": "ACERCA DE MÍ",
-    "about.p1": "Impulsada por una pasión inquebrantable por la programacion y la tecnología, prospero al crear experiencias digitales fluidas y resolver problemas complejos como Full Stack Developer. Con una sólida base en tecnologías tanto de front-end como de back-end, me especializo en crear aplicaciones web robustas que rompen barreras y ofrecen experiencias de usuario excepcionales.",
-    "about.p2": "En mi viaje como Full Stack Developer, he abrazado desafíos, fomentando la innovación y la eficiencia a través de mi código. Creo en el poder de la tecnología para transformar ideas en realidad y busco constantemente oportunidades para expandir mis habilidades y conocimientos en el siempre cambiante panorama tecnológico.",
-    "about.p3": "Cuando no estoy inmersa en líneas de código, soy una aventurera de corazón, explorando el mundo de los lenguajes y marcos de codificación con la misma entusiasmo que me lleva a descubrir nuevos lugares. Ya sea optimizando algoritmos o descubriendo gemas ocultas durante mis viajes, abordo cada esfuerzo con curiosidad y determinación.",
+    "about.p1": "¡Hola! Soy Iveth, desarrolladora Full Stack con formación en Ciencias de la Computación y una gran pasión por aprender y crear cosas que hagan la vida más fácil (¡y si pueden ser lindas, mejor!). Soy naturalmente curiosa y disfruto resolver problemas, sobre todo cuando eso mejora la experiencia del usuario o simplifica algún proceso.",
+    "about.p2": "He trabajado con distintas tecnologías y me encanta enfrentar nuevos desafíos—ya sea resolver un bug complicado, colaborar en equipo o aprender un framework nuevo. Me siento cómoda trabajando bajo presión y creo que la buena comunicación y la gestión del tiempo son tan importantes como escribir código limpio.",
+    "about.p3": "Servía café en mis días de estudiante. Ahora sirvo código, y lo hago bien cargado!.",
    
     "profile.edu":"EDUCACION",
     "profile.edu1": "Licenciatura en Ciencias de la Computación",
@@ -29,21 +29,34 @@
     "profile.Hb3": "Largas caminatas para pensar y charlar",
     "profile.Hb4": "Mi favorito: Pasar tiempo con familiares y amigos",
    
-    "portfolio.title1": "Bufete de Abogados",
-    "portfolio.desc1": "Página landing responsive ReactJs / TailwindCss nodemailer",
-    "portfolio.tecs1":"",
-    
-    "portfolio.title2": "Servicios de Chef Privado",
-    "portfolio.desc2": "Website showcase para servicios de chef privado, dirigido a publico de diferentes nacionalidades, por lo tanto es bilingue ingles/español con funcionalidades dirigidas a demostrar el producto y servicio con elegancia y suaves llamados a la accion",
-    "portfolio.tecs2":"",
-    
-    "portfolio.title3": "Bonita",
-    "portfolio.desc3": "Tienda online completa para vender productos y articulos de belleza al por mayor, cuenta con catalogo con sus filtros y busquedas, carrito de compras, favoritos, estado local para manejar selcciones sin login,                        dashboard para admin, superadmin y compradores, cada uno con sus propias funcionalidades.                         Pasarela de pagos por mercado pago y manejo de inventario completo por producto, colores, marcas, tamaños, presentaciones.                        Ademas de poder accionar descuentos por temporada, codigo o producto. sistema de reseñas y recordatorio de carrito pendiente",
-    "portfolio.tecs3":"",
+    "portfolio.title1": "Blog Web APP",
+    "portfolio.desc11": "Front: NEXT | TAILWINDCSS",
+    "portfolio.desc12": "Back: NEST | PRISMA",
+    "portfolio.desc13": "Base de Datos: MySQL",
+    "portfolio.desc14": "ApiDoc: SWAGGER -- DBAdmin: HEIDI -- Local: DOCKER",
+    "portfolio.tecs1": "Funcionalidades: Sitio web autoadministrable mediante dashboard con acceso protegido por login con cookies httpOnly. Incluye blog navegable por entradas individuales, por series o por autor. Gestión de recursos descargables (PDF o JPG) y enlaces externos clasificados por modelo. Redirección a podcasts en formato video/audio. Sistema de suscripción a lista de correos con gestión desde el dashboard y exportación para campañas de email marketing. Integración de métodos de donación vía PayPal, Mercado Pago y transferencia bancaria directa.",
+
+    "portfolio.title2": "Invitación para eventos",
+    "portfolio.desc21": "Front: VITE | REDUX | TAILWINDCSS",
+    "portfolio.desc22": "Back: EXPRESS | SEQUELIZE",
+    "portfolio.desc23": "Base de Datos: POSTGRESQL",
+    "portfolio.tecs2": "Webapp de invitación a eventos con código modular que permite la personalización flexible del diseño. Toda la información está centralizada en archivos JSON, con una futura integración prevista para personalización automática a través de formularios donde los clientes suben sus datos y elementos audiovisuales, generando una URL única. ",
+    "portfolio.tecs21": "Funcionalidades: integración con Google Calendar para agendar eventos, obtención de direcciones mediante Google Maps, y lista de regalos gestionada por dashboard. Los invitados pueden seleccionar un regalo, que se elimina automáticamente de la lista disponible. Los administradores pueden visualizar quién seleccionó qué artículo. Confirmación de asistencia mediante formulario, gestión de invitados por dashboard con orden alfabético y descarga de lista para email marketing. La lista también puede utilizarse como sistema de check-in durante el evento mediante botón que descuenta del total de asistentes o exportación para control manual. Incluye contador regresivo al evento (countdown).",
+
+    "portfolio.title3": "Website con blog",
+    "portfolio.desc31": "Front: NEXT | TAILWINDCSS",
+    "portfolio.desc32": "Back: NEST | PRISMA",
+    "portfolio.desc33": "Base de Datos: MySQL",
+    "portfolio.desc34": "ApiDoc: SWAGGER -- DBAdmin: HEIDI -- Local: DOCKER",
+    "portfolio.tecs3": "Sitio web institucional desarrollado con arquitectura escalable que incluye un sistema de gestión de contenido (CMS) personalizado para la publicación de blogs autoadministrables y la distribución de recursos descargables en formato PDF o imagen. Estructurado con una base de datos relacional optimizada para futuras integraciones. Preparado para la implementación de control de acceso basado en roles (RBAC) y funcionalidades avanzadas como carga de archivos, gestión de usuarios y segmentación de contenidos según permisos. Enfoque modular que facilita la evolución del producto sin comprometer estabilidad ni rendimiento.",
    
-    "portfolio.title4": "PokeApi",
-    "portfolio.desc4": "SPA que consume API, funciones de renderizado y creación JS/React/NodeJs/Express",
-    "portfolio.tecs4":"",
+    "portfolio.title4": "Bonita Ecommerce",
+    "portfolio.desc41": "Front: REACT | TAILWINDCSS | STYLED COMPONENTS",
+    "portfolio.desc42": "Back: EXPRESS | SEQUELIZE",
+    "portfolio.desc43": "Base de Datos: POSTGRESQL",
+    "portfolio.desc44": "Testing: JEST",
+    "portfolio.tecs4": "Plataforma e-commerce especializada en la venta mayorista de productos cosméticos, desarrollada con enfoque en escalabilidad y experiencia de usuario. Incorpora motor de búsqueda inteligente por nombre, filtrado y ordenamiento por categoría, y sistema de recomendaciones automáticas basadas en productos relacionados. Incluye funcionalidad de favoritos personalizados por usuario, carrito persistente con lógica de recuperación mediante recordatorios y notificaciones. Panel de administración con control de acceso basado en roles (RBAC), historial completo de compras por cliente, integración con pasarelas de pago y autenticación segura mediante Auth0. Arquitectura modular preparada para futuras integraciones logísticas y herramientas de marketing.",
+
     
     "portfolio.title5": "Invitacion de boda con un twist",
     "portfolio.desc5": "SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin con auth0",
@@ -60,10 +73,8 @@
     "portfolio.titleCurrent": "Actualmente trabajando en",
     "portfolio.descCurrent": "Aplicación multilingüe SPA CRUD PERN para gestionar pedidos de clientes con diferentes perfiles",
     "portfolio.tecsCurrent":"",
-
-    "portfolio.titleHenat": "Landing page para constructora Henat",
-    "portfolio.descHenat": "Si bien es una landing la considero importante para olocar en mi portfolio ya que con ela celebro la velocidad con la que puedo desarrollar en tecnologias que me son familiares. Para esta landing demore desarrollando tres dias, estoy contenta por eso",
-    "portfolio.tecsHenat": "Vite, React, Tailwind",
+   
+    "videotext": "ver video del proyecto",
 
     "contact.title": "CONTACTAME",
     "contact.subtitle1": "Contrátame",

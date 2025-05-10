@@ -10,9 +10,9 @@
     "home.fs": "FULL STACK DEVELOPER",
     "home.PS": "PERN STACK DEVELOPER",
     "about.title": "ABOUT ME",
-    "about.p1": "Driven by a relentless passion for coding and technology, I thrive on crafting seamless digital experiences and solving complex problems as a Full Stack Developer. With a strong foundation in both front-end and back-end technologies, I specialize in creating robust web applications that push boundaries and deliver exceptional user experiences.",
-    "about.p2": "In my journey as a Full Stack Developer, I've embraced challenges, fostering innovation and efficiency through my code. I believe in the power of technology to transform ideas into reality and constantly seek opportunities to expand my skills and knowledge in the ever-evolving tech landscape.",
-    "about.p3": "When I'm not immersed in lines of code, I'm an adventurer at heart, exploring the world of coding languages and frameworks with the same enthusiasm I bring to exploring new places. Whether it's optimizing algorithms or discovering hidden gems during my travels, I approach every endeavor with curiosity and determination.",
+    "about.p1": "Hi! I'm Iveth, a Full Stack Developer with a background in Computer Science and a big passion for learning and building things that make life easier (and a little more beautiful). I’m naturally curious and enjoy solving problems, especially when it means improving user experience or streamlining a process.",
+    "about.p2": "I’ve worked with a variety of technologies and love jumping into new challenges—whether it's debugging a tricky issue, collaborating with a team, or learning a new framework. I'm comfortable under pressure, and I believe good communication and time management are just as important as writing clean code.",
+    "about.p3": "I used to serve coffee as a student. Now I serve code—with extra flavor and zero spills!",
     "profile.edu": "EDUCATION",
     "profile.edu1": "Bachelor Computer Science",
     "profile.edu2": "Full stack Web Developer",
@@ -26,21 +26,35 @@
     "profile.Hb3": "Long walks to think and talk",
     "profile.Hb4": "my fav: Spend time with family and friends",
     
-    "portfolio.title1": "Lawyer Buffet",
-    "portfolio.desc1": "Responsive landing page ReactJs /  TailwindCss nodemailer",
-    "portfolio,tecs1":"",
+   "portfolio.title1": "Blog Web APP",
+    "portfolio.desc1": "Frontend: NEXT | TAILWINDCSS",
+    "portfolio.desc12": "Backend: NEST | PRISMA",
+    "portfolio.desc13": "Database: MySQL",
+    "portfolio.desc14": "ApiDoc: SWAGGER -- DBAdmin: HEIDI -- Local: DOCKER",
+    "portfolio.tecs1": "Features: Self-managed website through a dashboard with secure login using HTTP-only cookies. Includes blog navigation by single posts, blog series, or author. Management of downloadable resources (PDF or JPG) and categorized external links. Redirection to podcast content in video or audio format. Newsletter subscription system with dashboard-based management and exportable data for email marketing. Donation options via PayPal, Mercado Pago, and direct bank transfers.",
+
     
-    "portfolio.title2": "Private chef Services",
-    "portfolio.desc2": "Website showcase for private chef services, targeting an international audience, hence bilingual in English/Spanish with features aimed at elegantly showcasing the product and service, along with subtle calls to action.",
-    "portfolio,tecs2":"",
+   "portfolio.title2": "Event Invitation Webapp",
+    "portfolio.desc2": "Frontend: VITE | REDUX | TAILWINDCSS",
+    "portfolio.desc22": "Backend: EXPRESS | SEQUELIZE",
+    "portfolio.desc23": "Database: POSTGRESQL",
+    "portfolio.tecs2": "Event invitation webapp with modular code architecture for flexible and efficient design customization. All event data is centralized in JSON files, with plans for future automatic customization through a client-facing form that generates a unique invitation URL after uploading media and event information. ",
+    "portfolio.tecs21": "Features include: Google Calendar integration for scheduling, Google Maps directions, and a gift list managed via the admin dashboard. Guests can select a gift, which is then automatically removed from the available options. Admins can track who chose each gift. RSVP form with guest list management, alphabetically sorted and exportable for email marketing. The list is also usable as a check-in tool through a button that adjusts attendee count in real-time or via downloadable control. Includes a live countdown to the event.",
     
-    "portfolio.title3": "Bonita",
-    "portfolio.desc3": "Complete online store for wholesale beauty products and items, featuring a catalog with filters and search, shopping cart, favorites, local state for guest users, dashboards for admin, superadmin, and buyers with specific functionalities. Includes Mercado Pago payment gateway, comprehensive inventory management by product attributes, seasonal, code-based, or product-specific discounts, review system, and abandoned cart reminders.",
-    "portfolio,tecs3":"",
+    "portfolio.title3": "Website with Blog",
+    "portfolio.desc31": "Front: NEXT | TAILWINDCSS",
+    "portfolio.desc32": "Back: NEST | PRISMA",
+    "portfolio.desc33": "Base de Datos: MySQL",
+    "portfolio.desc34": "ApiDoc: SWAGGER -- DBAdmin: HEIDI -- Local: DOCKER",
+    "portfolio.tecs3": "Institutional website built with a scalable architecture featuring a custom content management system (CMS) for self-managed blog publishing and distribution of downloadable assets (PDFs and images). Structured on an optimized relational database designed for seamless future integrations. Prepared for Role-Based Access Control (RBAC) and advanced functionalities such as file uploads, user management, and content segmentation based on permissions. Modular design ensures the product can evolve without compromising stability or performance.",
     
-    "portfolio.title4": "PokeApi",
-    "portfolio.desc4": "Single page App consuming API, render and create functions JS/React/NodeJs/express",
-    "portfolio,tecs4":"",
+   "portfolio.title4": "Bonita Ecommerce",
+    "portfolio.desc41": "Front: REACT | TAILWINDCSS | STYLED COMPONENTS",
+    "portfolio.desc42": "Back: EXPRESS | SEQUELIZE",
+    "portfolio.desc43": "Base de Datos: POSTGRESQL",
+    "portfolio.desc44": "Testing: JEST",
+    "portfolio.tecs4": "Wholesale e-commerce platform for cosmetic products, built with scalability and user experience in mind. Features include an intelligent search engine by product name, filtering and sorting by category, and automated product recommendation system. Supports user-specific favorites, persistent shopping carts with recovery logic through notifications and reminders. Admin dashboard with Role-Based Access Control (RBAC), complete order history per customer, secure payment gateway integration, and authentication via Auth0. Modular architecture designed to support future integrations such as logistics systems and marketing tools.",
+
     
     "portfolio.title5": "Wedding invitation with a twist",
     "portfolio.desc5": "SPA using the PERN stack, CRUD functionalities via HTTP, and authentication/authorization for admin with Auth0",
@@ -53,14 +67,13 @@
     "portfolio.title7": "Invitation + dashboard",
     "portfolio.desc7": "I have generated a large number of personalized digital invitations with features such as GPS, countdowns, email reminders, RSVP confirmation via form, and guests can select their gift through a catalog. The dashboard manages gifts and confirmed guests, allowing modification of the gift list and viewing selections. Each invitation with a completely different design has reinforced my front-end styling skills.",
     "portfolio,tecs7":"",
-
-    "portfolio.titleHenat": "Landing page for Henat Constructors",
-    "portfolio.descHenat": "Although it is a landing page, I consider it important to include it in my portfolio because it showcases the speed at which I can develop using technologies that are familiar to me. I took three days to develop this landing page, and I'm happy with that.",
-    "portfolio.tecsHenat": "Vite, React, Tailwind",
     
     "portfolio.titleCurrent": "Currently working on",
     "portfolio.descCurrent": "Multilingual App SPA CRUD PERN to manage customer orders with different profiles",
     "portfolio,tecsCurrent":"",
+
+    "videotext": "watch project video",
+
     
     "contact.title": "GET IN TOUCH",
     "contact.subtitle1": "Hire me",

@@ -1,158 +1,244 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
+
 import lawyer from "./../../img/lawyerWbst.png";
 import chef from "./../../img/chefLanding.png";
-import bonitaImg from "./../../img/bonita.png";
 import poke from "./../../img/pokeApi.png";
 import wkngOn from "./../../img/workingOn.png";
 import invitation from "./../../img/invitation.png";
 import DE from "./../../img/diaespecial.png";
 import web4 from "./../../img/web4.jpg";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-cards";
 
-const Card = ({ urlLink, cardImg, title, desc, defaultT, defaultD, tecs, defaultTecs }) => {
-    return (
-        <>
-            <a href={urlLink} target="_blank" rel="noopener noreferrer" >
-                {/* <div className="flex flex-col items-center mb-10 mx-4 md:w-[302px] md:mb-20">
-                    <img src={cardImg} alt="portfolio card" className="w-[300px] h-auto" />
-                    <h4 className="font-title font-bold text-xl">
-                        <FormattedMessage id={title} defaultMessage={defaultT} />
-                    </h4>
-                    <p className="font-txt break-normal text-sm md:text-base">
-                        <FormattedMessage id={desc} defaultMessage={defaultD} />
-                    </p>
-                </div> */}
-                <div className=" w-screen h-[820px] md:h-[520px] lg:h-[420px] xl:h-[360px] mb-12 flex justify-center">
-                    <div className="w-[90%] border-4 border-sky-300 shadow-md rounded-3xl p-2 hover:bg-gray-800 hover:shadow-blue-500 hover:-translate-x-4
-                                    md:flex md:flex-row">
-                        <div className="w-full md:w-1/2 h-[300px] md:h-[500px] lg:h-[400px] xl:h-[340px]">
-                            <img src={cardImg} alt="" className="h-full w-full object-cover rounded-3xl" />
-                        </div>
-                        <div className="w-full md:w-1/2 md:flex md:justify-center md:flex-col">
-                            <div>
+import { EffectCards } from "swiper/modules";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-                                <div>
-                                    <h4 className="font-title font-bold text-2xl pt-2">
-                                        <FormattedMessage id={title} defaultMessage={defaultT} />
-                                    </h4>
-                                    <hr className="border-2 border-t-sky-300 md:mx-4" />
-                                </div>
-                                <div className="pt-4">
-                                    <p className="font-txt break-normal text-lg md:text-base md:px-4">
-                                        <FormattedMessage id={desc} defaultMessage={defaultD} />
-                                    </p>
-                                </div>
-
-                            </div>
-
-                            <div className="md:pt-8 text-sky-300">
-                                <p>
-                                    <FormattedMessage id={tecs} defaultMessage={defaultTecs} />
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </>
-    )
+{
+  /* images ecommerce bonita */
 }
+import bonitaImg from "./../../img/bonita.png";
+
+{
+  /* images webBlog */
+}
+import wb1 from "./../../img/portfolio/ibm/19.png";
+import wb2 from "./../../img/portfolio/ibm/20.png";
+import wb3 from "./../../img/portfolio/ibm/21.png";
+import wb4 from "./../../img/portfolio/ibm/22.png";
+import wb5 from "./../../img/portfolio/ibm/23.png";
+const wbImgs = [wb1, wb2, wb3, wb4, wb5];
+
+{
+  /* imagesInvitation  */
+}
+import inv1 from "./../../img/portfolio/invitacion/11.png";
+import inv2 from "./../../img/portfolio/invitacion/12.png";
+import inv3 from "./../../img/portfolio/invitacion/13.png";
+import inv4 from "./../../img/portfolio/invitacion/14.png";
+import inv5 from "./../../img/portfolio/invitacion/15.png";
+import inv6 from "./../../img/portfolio/invitacion/16.png";
+import inv7 from "./../../img/portfolio/invitacion/17.png";
+import inv8 from "./../../img/portfolio/invitacion/18.png";
+const invImgs = [inv1, inv2, inv3, inv4, inv5, inv6, inv7, inv8];
+
+import san1 from "./../../img/portfolio/sandwich/1.png";
+import san2 from "./../../img/portfolio/sandwich/2.png";
+import san3 from "./../../img/portfolio/sandwich/3.png";
+import san4 from "./../../img/portfolio/sandwich/4.png";
+import san5 from "./../../img/portfolio/sandwich/5.png";
+import san6 from "./../../img/portfolio/sandwich/6.png";
+import san7 from "./../../img/portfolio/sandwich/7.png";
+import san8 from "./../../img/portfolio/sandwich/8.png";
+import san9 from "./../../img/portfolio/sandwich/9.png";
+import san10 from "./../../img/portfolio/sandwich/10.png";
+import san11 from "./../../img/portfolio/sandwich/24.png";
+import san12 from "./../../img/portfolio/sandwich/25.png";
+const sanImgs = [
+  san1,
+  san2,
+  san3,
+  san4,
+  san5,
+  san6,
+  san7,
+  san8,
+  san9,
+  san10,
+  san11,
+  san12,
+];
+
+const PortfolioCard = ({
+  title,
+  titled,
+  desc1,
+  desc1d,
+  desc2,
+  desc2d,
+  desc3,
+  desc3d,
+  desc4,
+  desc4d,
+  tecs1,
+  tecs1d,
+  tecs2,
+  tecs2d,
+  imgs,
+  videoLink,
+}) => {
+  return (
+    <>
+      <div className="md:ml-12 gap-8 flex flex-col md:grid md:grid-cols-2 pt-16 md:pt-24">
+        <div className="h-[340px] md:h-[400px] w-full">
+          <Swiper
+            effect={"cards"}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="mySwiperw-full min-w-[250px] h-[340px] md:h-[400px] md:ml-8"
+          >
+            {imgs.map((src, index) => (
+              <SwiperSlide
+                key={index}
+                className="flex justify-center items-center overflow-hidden"
+              >
+                <img
+                  src={src}
+                  alt={`Slide ${index + 1}`}
+                  className="max-h-[320px] md:h-[400px] w-[80%] object-contain"
+                />               
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        <div className="text-white overflow-y-auto md:px-8 h-[340px] md:h-[400px] pt-2">
+          <h1 className="text-2xl font-semibold">
+            <FormattedMessage id={title} defaultMessage={titled} />
+          </h1>
+          <p className="text-base font-light tracking-wide italic pt-4">
+            <FormattedMessage id={desc1} defaultMessage={desc1d} />
+          </p>
+          <p className="text-base font-light tracking-wide italic">
+            <FormattedMessage id={desc2} defaultMessage={desc2d} />
+          </p>
+          <p className="text-base font-light tracking-wide italic">
+            <FormattedMessage id={desc3} defaultMessage={desc3d} />
+          </p>
+          {desc4 && (
+            <p className="text-base font-light tracking-wide italic">
+              <FormattedMessage id={desc4} defaultMessage={desc4d} />
+            </p>
+          )}
+           {videoLink && (
+                  <a
+                    href={videoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block text-blue-400 underline hover:text-blue-200"
+                  >
+                    <FormattedMessage
+                      id="videotext"
+                      defaultMessage="Watch project video"
+                    />
+                  </a>
+                )}
+          <div className="pt-4">
+            <p>
+              <FormattedMessage id={tecs1} defaultMessage={tecs1} />
+            </p>
+            {tecs2 && (
+              <p>
+                <FormattedMessage id={tecs2} defaultMessage={tecs2} />
+              </p>
+            )}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 const Portfolio = () => {
-    return (
-        <div className="animate-fadeIn text-slate-300 md:grid md:grid-row-3 mb-10 md:mb-0">
+  return (
+    <>
+      <div className="flex justify-center items-center h-full ">
+        <Swiper
+          cssMode={true}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <PortfolioCard
+              title="portfolio.title1"
+              titled="Blog Web APP"
+              desc1="portfolio.desc11"
+              desc1d="Front: NEXT | TAILWINDCSS"
+              desc2="portfolio.desc12"
+              desc3="portfolio.desc13"
+              desc4="portfolio.desc14"
+              tecs1="portfolio.tecs1"
+              imgs={sanImgs}
+              videoLink="https://youtu.be/u6H1F68Zmyc"
+            />
+          </SwiperSlide>
 
-            <div className="row-span-1 flex flex-col items-start pt-10 ml-3 md:ml-10">
-                <h1 className="font-title text-2xl md:text-4xl font-bold">
-                    PORTFOLIO
-                </h1>
-                <div className="border-t border-sky-300 border-4 w-[200px] md:w-[300px] md:mt-3"></div>
-            </div>
+          <SwiperSlide>
+            <PortfolioCard
+              title="portfolio.title2"
+              titled="Invitación para eventos"
+              desc1="portfolio.desc21"
+              desc1d="Front: VITE | REDUX | TAILWINDCSS"
+              desc2="portfolio.desc22"
+              desc3="portfolio.desc23"
+              tecs1="portfolio.tecs2"
+              tecs2="portfolio.tecs21"
+              imgs={invImgs}
+              videoLink="https://youtu.be/t7I1o0owZbY"
+            />
+          </SwiperSlide>
 
-            <div className="row-span-2 mt-10 md:mt-20">
-                <div className="flex flex-wrap justify-around">
+          <SwiperSlide>
+            <PortfolioCard
+              title="portfolio.title3"
+              titled="Website con blog"
+              desc1="portfolio.desc31"
+              desc1d="Front: NEXT | TAILWINDCSS"
+              desc2="portfolio.desc32"
+              desc3="portfolio.desc33"
+              desc4="portfolio.desc34"
+              tecs1="portfolio.tecs3"
+              imgs={wbImgs}
+              videoLink="https://youtu.be/XUKNtrJ42Iw"
+            />
+          </SwiperSlide>
 
-                    {/* <p>
-                        Es dificil seleccionar trabajos para colocar en este espacio, no soy diseñador y algunos proyectos no son tan guapos, pero las funcionalidades son geniales, lo cual es mi expertise
-                    </p> */}
-
-                    <Card
-                        urlLink={"https://youtu.be/Cwm9KB4JrXE?si=jajS96NMvKOxqNgh"}
-                        cardImg={bonitaImg}
-                        title="portfolio.title3" desc="portfolio.desc3"
-                        defaultT="Bonita"
-                        defaultD="Tienda online completa para vender productos y articulos de belleza al por mayor, cuenta con 
-                        catalogo con sus filtros y busquedas, carrito de compras, favoritos, estado local para manejar selcciones sin login,
-                        dashboard para admin, superadmin y compradores, cada uno con sus propias funcionalidades. 
-                        Pasarela de pagos por mercado pago y manejo de inventario completo por producto, colores, marcas, tamaños, presentaciones.
-                        Ademas de poder accionar descuentos por temporada, codigo o producto. sistema de reseñas y recordatorio de carrito pendiente"
-                        tecs="portfolio.tecs3"
-                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
-                    />
-
-                    <Card
-                        urlLink={"https://dia-especial-front.vercel.app/"}
-                        cardImg={DE}
-                        title="portfolio.title6" desc="portfolio.desc6"
-                        defaultT="Digital invitations Front Store"
-                        defaultD="Website completo para la venta de invitaciones de eventos electronicas, la tienda cuenta con catalogo y sistema de pedidos personales con formulario de requerimentos. Se concentra el dashboard para admin para modificar catalogo, cuenta tambien con sistema de notificaciones de pedidos"
-                        tecs="portfolio.tecs6"
-                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
-                    />
-
-
-
-                    <Card
-                        urlLink={"https://private-chef-at-los-cabos.vercel.app/"}
-                        cardImg={chef}
-                        title="portfolio.title2" desc="portfolio.desc2"
-                        defaultT="Servicios de Chef Privado"
-                        defaultD="Website showcase para servicios de chef privado, dirigido a publico de diferentes nacionalidades, por lo tanto es bilingue ingles/español con funcionalidades dirigidas a demostrar el producto y servicio con elegancia y suaves llamados a la accion"
-                        tecs="portfolio.tecs2"
-                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
-                    />
-
-                    <Card
-                        urlLink={"https://youtu.be/2yJir5O6b90"}
-                        cardImg={web4}
-                        title="portfolio.title7" desc="portfolio.desc7"
-                        defaultT="web Invitacion + admin dashboard"
-                        defaultD="He generado una gran cantidad de invitaciones digitales personalizadas con funcionalidades como gps, cuenta atras, recordatorios al mail, confirmacion de asistencia por formulario, el invitado puede seleccionar el regalo que dara por medio de catalogo. El dashboard para administrar regalos y a los invitados confirmados, la lista de regalos que se puede modificar y ver los que han sido ya seleccionados. Cada invitacion con diseño totalmente diferente ha reforzado mis capacidades de estilizado en front"
-                        tecs="portfolio.tecs7"
-                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
-                    />
-
-                    <Card
-                        urlLink={"https://grupohenat.com.ar/"}
-                        cardImg="https://res.cloudinary.com/dl0jhqre0/image/upload/v1723578878/portfolio/control_panel_gjdkwz.png"
-                        title="portfolio.titleHenat" desc="portfolio.descHenat"
-                        defaultT="Landing para Henat"
-                        defaultD="Si bien es una landing la considero importante para olocar en mi portfolio ya que con ela celebro la velocidad con la que puedo desarrollar en tecnologias que me son familiares. Para esta landing demore desarrollando tres dias, estoy contenta por eso"
-                        tecs="Vite, React, Tailwind"
-                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
-                    />
-
-                    <Card
-                        urlLink={"https://github.com/ivethglez80/CustomerOrdersManagement.git"}
-                        cardImg={wkngOn}
-                        title="portfolio.titleCurrent" desc="portfolio.descCurrent"
-                        defaultT="Actualmente trabajando en"
-                        defaultD="Aplicación multilingüe SPA CRUD PERN para gestionar pedidos de clientes con diferentes perfiles"
-                        tecs="portfolio.tecsCurrent"
-                        defaultTecs="JavaScript, ReactJs, CSS, Tailwind, NodeJs, Express, PostgreSQL, Jest"
-                    />
-
-
-
-
-                </div>
-            </div>
-
-
-        </div>
-    )
+          <SwiperSlide>
+            <PortfolioCard
+              title="portfolio.title4"
+              titled="Bonita Ecommerce"
+              desc1="portfolio.desc41"
+              desc1d="Front: REACT | TAILWINDCSS | STYLED COMPONENTS"
+              desc2="portfolio.desc42"
+              desc3="portfolio.desc43"
+              desc4="portfolio.desc44"
+              tecs1="portfolio.tecs4"
+              imgs={[bonitaImg]}
+              videolink="https://youtu.be/Cwm9KB4JrXE"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </>
+  );
 };
 
 export default Portfolio;

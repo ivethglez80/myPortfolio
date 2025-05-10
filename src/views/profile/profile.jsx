@@ -22,16 +22,21 @@ const Profile = () => {
             <h1 className="font-title font-bold text-2xl text-start"><FormattedMessage id="profile.sk" defaultMessage="CONOCIMIENTOS" /></h1 >
             <div className="border-t border-sky-500 mt-2 mb-4 mr-10 border-2"></div>
             <ul className="font-subtitle">
-                <li className="border border-slate-300 rounded-full text-start mr-20 pl-4 my-3">JAVASCRIPT</li>
-                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-3">REACT JS</li>
-                <li className="border border-slate-300 rounded-full text-start mr-20 pl-4 my-3">NEXT JS</li>
-                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-3">REDUX</li>
-                <li className="border border-slate-300 rounded-full text-start mr-14 pl-4 my-3">TAILWIND CSS</li>
-                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-3">NODE JS</li>
-                <li className="border border-slate-300 rounded-full text-start mr-20 pl-4 my-3">EXPRESS JS</li>
-                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-3">POSTGRESQL</li>
-                <li className="border border-slate-300 rounded-full text-start mr-20 pl-12 my-3">GIT</li>
-                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-3">CUCUMBER JS</li>            
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-4 my-1 hover:bg-white hover:text-black">JAVASCRIPT</li>
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">REACT JS</li>
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-4 my-1 hover:bg-white hover:text-black">NEXT JS</li>
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">REDUX</li>
+                <li className="border border-slate-300 rounded-full text-start mr-14 pl-4 my-1 hover:bg-white hover:text-black">TAILWIND CSS</li>
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">NODE JS</li>
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-4 my-1 hover:bg-white hover:text-black">EXPRESS JS</li>
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">POSTGRESQL</li>
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-12 my-1 hover:bg-white hover:text-black">GIT</li>
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">JEST JS</li>        
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-12 my-1 hover:bg-white hover:text-black">MYSQL</li>    
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">NEST</li>        
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-12 my-1 hover:bg-white hover:text-black">REACT NATIVE</li>    
+                <li className="border border-slate-300 rounded-full ml-20 pl-4 my-1 hover:bg-white hover:text-black">SWAGGER</li>        
+                <li className="border border-slate-300 rounded-full text-start mr-20 pl-12 my-1 hover:bg-white hover:text-black">DOCKER</li>    
             </ul>
             </div>
 
@@ -41,6 +46,7 @@ const Profile = () => {
             <ul className="font-subtitle mb-16">               
                 <span className="flex ml-3 mt-4"><MdDoubleArrow className="text-sky-500"/> <li>English: advanced-C2 </li> </span>
                 <span className="flex ml-3 mt-4"><MdDoubleArrow className="text-sky-500"/> <li>Español: nativo</li> </span>
+                <span className="flex ml-3 mt-4"><MdDoubleArrow className="text-sky-500"/> <li>Estudiando para HSK1</li> </span>
             </ul>
             <h1 className="font-title font-bold text-2xl"><FormattedMessage id="profile.skGoals" defaultMessage="ME INTERESA" /></h1 > 
             <div className="border-t border-sky-500 mt-2 mb-0 md:mb-10 mr-10 border-2"></div>           

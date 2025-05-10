@@ -11,7 +11,7 @@ const Footer = () => {
                 </div>
 
                 <div className="text-slate-200 md:text-end w-full md:w-1/6 mt-3 md:mt-0">
-                    <p>PORTFOLIO 2024</p>
+                    <p>PORTFOLIO 2025</p>
                 </div>
             </div>
 
