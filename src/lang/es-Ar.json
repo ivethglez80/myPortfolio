@@ -57,11 +57,14 @@
     "portfolio.desc44": "Testing: JEST",
     "portfolio.tecs4": "Plataforma e-commerce especializada en la venta mayorista de productos cosméticos, desarrollada con enfoque en escalabilidad y experiencia de usuario. Incorpora motor de búsqueda inteligente por nombre, filtrado y ordenamiento por categoría, y sistema de recomendaciones automáticas basadas en productos relacionados. Incluye funcionalidad de favoritos personalizados por usuario, carrito persistente con lógica de recuperación mediante recordatorios y notificaciones. Panel de administración con control de acceso basado en roles (RBAC), historial completo de compras por cliente, integración con pasarelas de pago y autenticación segura mediante Auth0. Arquitectura modular preparada para futuras integraciones logísticas y herramientas de marketing.",
 
-    
-    "portfolio.title5": "Invitacion de boda con un twist",
-    "portfolio.desc5": "SPA que usa el stack PERN, funcionalidades CRUD a traves de HTTP y autenticacion/autorizacion para admin con auth0",
-    "portfolio.tecs5":"",
-    
+    "portfolio.title5": "Formulario con lógica compleja",
+    "portfolio.desc51": "Front: NEXT | TAILWINDCSS",
+    "portfolio.tecs51": "La consigna: desarrollar un formulario con 4 campos tipo select interdependientes, donde cada selección condiciona dinámicamente las opciones disponibles en los demás. La combinación de los valores seleccionados debe construir una URL válida que redirige a una página con disponibilidad de cabinas para que el usuario complete su compra.",
+    "portfolio.tecs52": "El desafío: la API utilizada no entrega la información de manera consistente. Incluso ante solicitudes inválidas, devuelve resultados aleatorios de cabinas existentes, sin relación directa con los parámetros enviados.",
+    "portfolio.tecs53": "Adicionalmente, la API no cuenta con documentación y solo se proporcionó el endpoint, sin acceso al código fuente, lo que dificultó comprender cómo se estructuran y filtran los datos en el backend.",
+    "portfolio.tecs54": "La solución: implementar una lógica de validación en el frontend que analiza la respuesta recibida y descarta los resultados inconsistentes, asegurando que los datos mostrados coincidan con la selección esperada del usuario.",
+
+
     "portfolio.title6":"Catalogo de invitaciones digitales",
     "portfolio.desc6":"Website completo para la venta de invitaciones de eventos electronicas, la tienda cuenta con catalogo y sistema de pedidos personales con formulario de requerimentos. Se concentra el dashboard para admin para modificar catalogo, cuenta tambien con sistema de notificaciones de pedidos",
     "portfolio.tecs6":"",
@@ -75,8 +78,9 @@
     "portfolio.tecsCurrent":"",
    
     "videotext": "ver video del proyecto",
+    "proyectotext": "Ir al proyecto",
 
-    "contact.title": "CONTACTAME",
+    "contact.title": "CONTÁCTAME",
     "contact.subtitle1": "Contrátame",
     "contact.subtitle2": "Trabajemos juntos",
    

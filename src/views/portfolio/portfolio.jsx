@@ -46,6 +46,7 @@ import inv7 from "./../../img/portfolio/invitacion/17.png";
 import inv8 from "./../../img/portfolio/invitacion/18.png";
 const invImgs = [inv1, inv2, inv3, inv4, inv5, inv6, inv7, inv8];
 
+{/* sandiwch images */}
 import san1 from "./../../img/portfolio/sandwich/1.png";
 import san2 from "./../../img/portfolio/sandwich/2.png";
 import san3 from "./../../img/portfolio/sandwich/3.png";
@@ -73,6 +74,9 @@ const sanImgs = [
   san12,
 ];
 
+{/* modo image */}
+import modo1 from "./../../img/portfolio/modo/modopic.png";
+
 const PortfolioCard = ({
   title,
   titled,
@@ -88,8 +92,11 @@ const PortfolioCard = ({
   tecs1d,
   tecs2,
   tecs2d,
+  tecs3,
+  tecs4,
   imgs,
   videoLink,
+  proyectoLink
 }) => {
   return (
     <>
@@ -123,19 +130,26 @@ const PortfolioCard = ({
           <p className="text-base font-light tracking-wide italic pt-4">
             <FormattedMessage id={desc1} defaultMessage={desc1d} />
           </p>
-          <p className="text-base font-light tracking-wide italic">
+          {
+            desc2 && (
+              <p className="text-base font-light tracking-wide italic">
             <FormattedMessage id={desc2} defaultMessage={desc2d} />
           </p>
+            )}
+             {
+            desc3 && (
           <p className="text-base font-light tracking-wide italic">
             <FormattedMessage id={desc3} defaultMessage={desc3d} />
           </p>
+          )}
           {desc4 && (
             <p className="text-base font-light tracking-wide italic">
               <FormattedMessage id={desc4} defaultMessage={desc4d} />
             </p>
           )}
+          <div className="w-full flex justify-evenly">
            {videoLink && (
-                  <a
+             <a
                     href={videoLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -144,16 +158,41 @@ const PortfolioCard = ({
                     <FormattedMessage
                       id="videotext"
                       defaultMessage="Watch project video"
-                    />
+                      />
                   </a>
                 )}
+
+                {proyectoLink && (
+             <a
+                    href={proyectoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block text-blue-400 underline hover:text-blue-200"
+                  >
+                    <FormattedMessage
+                      id="proyectotext"
+                      defaultMessage="Go to project"
+                      />
+                  </a>
+                )}
+          </div>
           <div className="pt-4">
             <p>
               <FormattedMessage id={tecs1} defaultMessage={tecs1} />
             </p>
             {tecs2 && (
-              <p>
+              <p className="pt-2">
                 <FormattedMessage id={tecs2} defaultMessage={tecs2} />
+              </p>
+            )}
+             {tecs3 && (
+              <p className="pt-2">
+                <FormattedMessage id={tecs3} defaultMessage={tecs3} />
+              </p>
+            )}
+             {tecs4 && (
+              <p className="pt-2">
+                <FormattedMessage id={tecs4} defaultMessage={tecs4} />
               </p>
             )}
           </div>
@@ -188,6 +227,7 @@ const Portfolio = () => {
               tecs1="portfolio.tecs1"
               imgs={sanImgs}
               videoLink="https://youtu.be/u6H1F68Zmyc"
+              proyectoLink="https://sandwich-blog-client.vercel.app/"
             />
           </SwiperSlide>
 
@@ -203,6 +243,7 @@ const Portfolio = () => {
               tecs2="portfolio.tecs21"
               imgs={invImgs}
               videoLink="https://youtu.be/t7I1o0owZbY"
+              proyectoLink="https://invitacion-seba-eve.vercel.app/"
             />
           </SwiperSlide>
 
@@ -218,6 +259,7 @@ const Portfolio = () => {
               tecs1="portfolio.tecs3"
               imgs={wbImgs}
               videoLink="https://youtu.be/XUKNtrJ42Iw"
+              proyectoLink="https://www.ibmdecaba.com.ar/"
             />
           </SwiperSlide>
 
@@ -233,8 +275,27 @@ const Portfolio = () => {
               tecs1="portfolio.tecs4"
               imgs={[bonitaImg]}
               videolink="https://youtu.be/Cwm9KB4JrXE"
+              proyectoLink=""
             />
           </SwiperSlide>
+
+          
+          <SwiperSlide>
+            <PortfolioCard
+              title="portfolio.title5"
+              titled="Formulario con logica compleja"
+              desc1="portfolio.desc51"
+              desc1d="Front: NEXT | TAILWINDCSS"              
+              tecs1="portfolio.tecs51"
+              tecs2="portfolio.tecs52"
+              tecs3="portfolio.tecs53"
+              tecs4="portfolio.tecs54"
+              imgs={[modo1]}
+              videolink="https://youtu.be/Lid6aZQpPPM"
+              proyectoLink="https://modobrasil.com/"
+            />
+          </SwiperSlide>
+
         </Swiper>
       </div>
     </>

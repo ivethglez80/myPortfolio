@@ -34,7 +34,7 @@ const ContactInfo = () => {
 
             <div className="row-span-1 pt-5 pb-10 md:pb-0 md:pt-24">{/*title ans subtitle */}
                 <h1 className="font-title text-3xl md:text-5xl font-bold text-slate-300 ">
-                    <FormattedMessage id="contact.title" defaultMessage="CONTACTAME" />
+                    <FormattedMessage id="contact.title" defaultMessage="CONTÁCTAME" />
                 </h1>
 
                 <div className="text-sky-300 font-subtitle pl-1">                   

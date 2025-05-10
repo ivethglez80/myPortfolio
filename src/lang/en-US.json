@@ -56,9 +56,13 @@
     "portfolio.tecs4": "Wholesale e-commerce platform for cosmetic products, built with scalability and user experience in mind. Features include an intelligent search engine by product name, filtering and sorting by category, and automated product recommendation system. Supports user-specific favorites, persistent shopping carts with recovery logic through notifications and reminders. Admin dashboard with Role-Based Access Control (RBAC), complete order history per customer, secure payment gateway integration, and authentication via Auth0. Modular architecture designed to support future integrations such as logistics systems and marketing tools.",
 
     
-    "portfolio.title5": "Wedding invitation with a twist",
-    "portfolio.desc5": "SPA using the PERN stack, CRUD functionalities via HTTP, and authentication/authorization for admin with Auth0",
-    "portfolio,tecs5":"",
+    "portfolio.title5": "Complex Form with Dependent Logic",
+    "portfolio.desc51": "Frontend: NEXT | TAILWINDCSS",
+    "portfolio.tecs51": "The task: to build a form with 4 interdependent select fields, where each selection dynamically enables or disables options in the others. The selected combination generates a valid URL that redirects users to a page displaying available cabins for booking and purchase.",
+    "portfolio.tecs52": "The challenge: the API does not return data in a consistent or predictable manner. Even when given incorrect parameters, it responds with seemingly random sets of cabin options unrelated to the request.",
+    "portfolio.tecs53": "Moreover, the API was undocumented. Only the endpoint was provided, with no access to the source code, making it difficult to reverse-engineer how the data was processed or filtered on the backend.",
+    "portfolio.tecs54": "The solution: implement robust frontend validation to analyze the API response and filter out inconsistent results, ensuring the displayed options accurately reflect the user's selections.",
+
     
     "portfolio.title6": "Digital invitations Front Store",
     "portfolio.desc6": "Website complete for selling electronic event invitations, the store features a catalog and a personalized ordering system with a requirements form. The admin dashboard is focused on modifying the catalog, and it also includes an order notification system.",
@@ -73,6 +77,8 @@
     "portfolio,tecsCurrent":"",
 
     "videotext": "watch project video",
+    "proyectotext": "Go to project",
+
 
     
     "contact.title": "GET IN TOUCH",
